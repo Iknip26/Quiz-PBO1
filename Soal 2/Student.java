@@ -1,7 +1,7 @@
 public class Student extends Person{
-    String program;
-    int year;
-    double fee;
+    private String program;
+    private int year;
+    private double fee;
 
     public Student(String name, String address, String program, int year, double fee){
         super(name, address);
@@ -36,8 +36,8 @@ public class Student extends Person{
 
     @Override
     public String toString() {
-        return "Student{" + "name='" + name + '\'' +
-        ", address='" + address + '\'' +
+        return "Student{" + "name='" + getName() + '\'' +
+        ", address='" + getAddress() + '\'' +
                 "program='" + program + '\'' +
                 ", year=" + year +
                 ", fee=" + fee +
