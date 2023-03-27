@@ -2,15 +2,6 @@ public class Rectangle extends Shape{
         private double width;
         private double lenght;
     
-        public Rectangle(){
-    
-        }
-    
-        public Rectangle(double width, double lenght) {
-            this.width = width;
-            this.lenght = lenght;
-        }
-    
         public Rectangle(String color, boolean filled, double width, double lenght) {
             super(color, filled);
             this.width = width;
