@@ -1,10 +1,6 @@
 public class Shape {
-    String color;
-    boolean filled;
-
-    public Shape(){
-
-    }
+    private String color;
+    private boolean filled;
 
     public Shape(String color, boolean filled) {
         this.color = color;
