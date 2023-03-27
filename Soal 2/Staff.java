@@ -1,5 +1,5 @@
 public class Staff extends Person{
-    String school;
+    private String school;
     double pay;
 
     public Staff(String name, String address, String school, double pay) {
