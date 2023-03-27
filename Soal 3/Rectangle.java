@@ -1,6 +1,6 @@
 public class Rectangle extends Shape{
-        double width;
-        double lenght;
+        private double width;
+        private double lenght;
     
         public Rectangle(){
     
@@ -44,8 +44,8 @@ public class Rectangle extends Shape{
             return "Rectangle{" +
                     "width=" + width +
                     ", lenght=" + lenght +
-                    ", color='" + color + '\'' +
-                    ", filled=" + filled +
+                    ", color='" + getColor() + '\'' +
+                    ", filled=" + isFilled() +
                     '}';
         }
     }
