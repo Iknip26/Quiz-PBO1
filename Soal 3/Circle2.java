@@ -1,14 +1,6 @@
 public class Circle2 extends Shape{
-    double radius;
-
-    public Circle2(){
-
-    }
-
-    public Circle2(double radius) {
-        this.radius = radius;
-    }
-
+    private double radius;
+    
     public Circle2(String color, boolean filled, double radius){
         super(color, filled);
         this.radius = radius;
@@ -32,8 +24,8 @@ public class Circle2 extends Shape{
     public String toString() {
         return "Circle3{" +
                 "radius=" + radius +
-                ", color='" + color + '\'' +
-                ", filled=" + filled +
+                ", color='" + getColor() + '\'' +
+                ", filled=" + isFilled() +
                 '}';
     }
 }
